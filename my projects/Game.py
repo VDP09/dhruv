@@ -20,7 +20,7 @@ else:
         print ("yay I guessed it on my second try!")
     else: 
         print("Come On")
-        guess = guess - secondtry
+        guess = guess - secondtry - secondtry
         if age_guess().lower() == "yes":
             print ("yay I guessed it on my third try!")
         else:
